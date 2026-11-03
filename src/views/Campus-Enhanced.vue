@@ -441,7 +441,7 @@ onMounted(() => {
 /* 地标卡片 */
 .landmarks-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
   gap: 30px;
   margin-bottom: 40px;
 }

@@ -617,3 +617,105 @@ footer .copyright {
 .animate__delay-5s {
   transition-delay: 1s !important;
 }
+/* ===== 多端适配与交互增强层 (2026-11 responsive-enhance) ===== */
+
+/* 1) 全站平滑滚动 + 锚点跳转偏移（粘性导航不遮挡落点） */
+html {
+  scroll-behavior: smooth;
+}
+section[id],
+[id^="section-"],
+[id^="faq"],
+[id^="guide"] {
+  scroll-margin-top: 88px;
+}
+
+/* 2) 流式排版：核心标题随视口连续缩放，多端字号一致收敛 */
+.hero-title {
+  font-size: clamp(2.1rem, 5.5vw + 0.8rem, 4.5rem) !important;
+}
+.hero-subtitle,
+.carousel-caption p {
+  font-size: clamp(0.95rem, 1.6vw + 0.5rem, 1.35rem) !important;
+}
+h2 {
+  font-size: clamp(1.45rem, 2.6vw + 0.7rem, 2.4rem);
+}
+h3 {
+  font-size: clamp(1.15rem, 1.8vw + 0.6rem, 1.7rem);
+}
+
+/* 3) 图片与横幅溢出防护（任意屏宽不出现横向滚动） */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.carousel-image,
+.hero-slide {
+  object-fit: cover;
+  background-position: center;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* 4) 卡片/图库网格自适应排列（缩放排列核心） */
+.stat-card,
+.feature-card,
+.quick-nav-card {
+  min-width: 0;
+}
+
+/* 5) 移动端触控优化：导航与翻页按钮加大热区 */
+@media (max-width: 768px) {
+  .main-nav a,
+  .navbar-nav .nav-link,
+  nav a {
+    padding: 12px 16px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 44px !important;
+    height: 44px !important;
+  }
+  .stat-card {
+    padding: 14px 10px;
+  }
+  .stat-number {
+    font-size: clamp(1.6rem, 6vw, 2.4rem);
+  }
+  section[id],
+  [id^="section-"] {
+    scroll-margin-top: 72px;
+  }
+}
+
+/* 6) 平板临界区（769-1024px）双列收敛，避免窄卡片 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .stat-card {
+    padding: 18px 12px;
+  }
+}
+
+/* 7) 超宽屏（≥1600px）内容收敛，保持可读行宽 */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+/* 8) 减少动态偏好用户：关闭平滑滚动 */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
