@@ -4,40 +4,45 @@ on:
   push:
     branches: [ master ]
 
-# 设置GITHUB_TOKEN权限
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-    - name: Checkout 📥
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0 # 获取完整Git历史
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js ⚙️
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
 
-    - name: Install dependencies 📦
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Build project 🔨
-      run: npm run build
+      - name: Build
+        run: npm run build
 
-    - name: Setup Git Identity 📝
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-    - name: Deploy to GitHub Pages 🚀
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        # 强制部署到gh-pages分支
-        force_orphan: true
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
