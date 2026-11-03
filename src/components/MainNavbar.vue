@@ -5,7 +5,7 @@
       <!-- 左侧：校徽（包含校名） -->
       <div class="navbar-brand">
         <div class="logo-container">
-          <img src="/shzu-webwelcome/images/logo.svg" alt="石河子大学校徽" class="logo-image" />
+          <img src="/images/logo.svg" alt="石河子大学校徽" class="logo-image" />
         </div>
       </div>
 
