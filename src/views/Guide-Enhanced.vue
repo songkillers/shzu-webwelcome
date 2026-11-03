@@ -435,21 +435,21 @@ const dormitoryTypes = [
     type: '豪华双人间',
     price: '¥1000/年',
     description: '高档配置，公共卫浴，配备空调、书桌、衣柜等完善设施',
-    image: '/images/official/facilities/luxury-double-room.jpg',
+    image: '/shzu-webwelcome/images/official/facilities/luxury-double-room.jpg',
     facilities: ['公共卫浴', '空调', '书桌', '衣柜', '网络', '热水器', '独立学习区']
   },
   {
     type: '三人间标准宿舍',
     price: '¥1000/年',
     description: '舒适配置，上床下桌，独立衣柜，配备空调和公共卫浴',
-    image: '/images/official/facilities/standard-triple-room.jpg',
+    image: '/shzu-webwelcome/images/official/facilities/standard-triple-room.jpg',
     facilities: ['公共卫浴', '空调', '书桌', '衣柜', '网络', '储物柜']
   },
   {
     type: '六人间经济宿舍',
     price: '¥800/年',
     description: '经济实惠配置，上下铺，公共书桌，基础生活设施齐全',
-    image: '/images/official/facilities/economy-six-room.webp',
+    image: '/shzu-webwelcome/images/official/facilities/economy-six-room.webp',
     facilities: ['公共卫浴', '风扇', '书桌', '储物柜', '网络', '公共学习区']
   }
 ]

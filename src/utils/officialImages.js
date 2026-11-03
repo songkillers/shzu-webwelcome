@@ -4,7 +4,7 @@ export const officialImages = {
   carousel: [
     {
       id: 'gate',
-      url: '/images/official/carousel/shzu-gate.jpg',
+      url: '/shzu-webwelcome/images/official/carousel/shzu-gate.jpg',
       alt: '石河子大学中区南门',
       title: '2026级新生，欢迎来到石河子大学',
       description: '知识的殿堂，梦想的起点。石河子大学中区南门，是石大学子的精神象征。',
@@ -13,7 +13,7 @@ export const officialImages = {
     },
     {
       id: 'library',
-      url: '/images/official/carousel/shzu-library.jpg',
+      url: '/shzu-webwelcome/images/official/carousel/shzu-library.jpg',
       alt: '石河子大学现代化图书馆',
       title: '探索知识的海洋',
       description: '现代化图书馆设施，藏书丰富，为你的学术追求提供无限可能。',
@@ -22,7 +22,7 @@ export const officialImages = {
     },
     {
       id: 'campus-sunset',
-      url: '/images/official/carousel/shzu-campus-sunset.jpg',
+      url: '/shzu-webwelcome/images/official/carousel/shzu-campus-sunset.jpg',
       alt: '石河子大学晚霞校园',
       title: '四季分明的美丽校园',
       description: '晚霞映照下的美丽校园，春有百花，夏有绿荫，秋有金叶，冬有雪景。',
@@ -31,7 +31,7 @@ export const officialImages = {
     },
     {
       id: 'stadium',
-      url: '/images/official/carousel/shzu-stadium.jpg',
+      url: '/shzu-webwelcome/images/official/carousel/shzu-stadium.jpg',
       alt: '石河子大学现代化体育馆',
       title: '青春活力的运动天地',
       description: '现代化的体育设施，为师生提供优质的运动和健身环境。',
@@ -44,7 +44,7 @@ export const officialImages = {
   landmarks: [
     {
       id: 'south-gate',
-      url: '/images/official/landmarks/中区南门.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/中区南门.jpg',
       alt: '石河子大学中区南门',
       title: '中区南门',
       description: '石河子大学的主校门，承载着石大精神与历史象征',
@@ -52,7 +52,7 @@ export const officialImages = {
     },
     {
       id: 'boxue-building',
-      url: '/images/official/landmarks/博学楼.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/博学楼.jpg',
       alt: '石河子大学博学楼',
       title: '博学楼',
       description: '主要教学建筑之一，彰显"博学笃行"的校训精神',
@@ -60,7 +60,7 @@ export const officialImages = {
     },
     {
       id: 'library',
-      url: '/images/official/landmarks/图书馆.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/图书馆.jpg',
       alt: '石河子大学图书馆',
       title: '图书馆',
       description: '现代化图书馆设施，藏书丰富，学术氛围浓厚',
@@ -68,7 +68,7 @@ export const officialImages = {
     },
     {
       id: 'museum',
-      url: '/images/official/landmarks/校史馆.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/校史馆.jpg',
       alt: '石河子大学校史馆',
       title: '校史馆',
       description: '展示学校发展历程和重要成就的文化殿堂',
@@ -76,7 +76,7 @@ export const officialImages = {
     },
     {
       id: 'auditorium',
-      url: '/images/official/landmarks/北区大会堂.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/北区大会堂.jpg',
       alt: '石河子大学北区大会堂',
       title: '北区大会堂',
       description: '举办重要会议、典礼和文艺活动的综合场馆',
@@ -84,7 +84,7 @@ export const officialImages = {
     },
     {
       id: 'international-center',
-      url: '/images/official/landmarks/一带一路国际教育中心.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/一带一路国际教育中心.jpg',
       alt: '一带一路国际教育中心',
       title: '一带一路国际教育中心',
       description: '国际化办学的重要基地，促进国际交流合作',
@@ -92,7 +92,7 @@ export const officialImages = {
     },
     {
       id: 'gymnasium',
-      url: '/images/official/landmarks/体育馆.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/体育馆.jpg',
       alt: '石河子大学体育馆',
       title: '体育馆',
       description: '现代化体育设施，承办各类体育赛事和活动',
@@ -100,7 +100,7 @@ export const officialImages = {
     },
     {
       id: 'swimming-pool',
-      url: '/images/official/landmarks/游泳馆.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/游泳馆.jpg',
       alt: '石河子大学游泳馆',
       title: '游泳馆',
       description: '标准化室内游泳馆，提供优质游泳健身环境',
@@ -108,7 +108,7 @@ export const officialImages = {
     },
     {
       id: 'administrative-building',
-      url: '/images/official/landmarks/行政楼.jpg',
+      url: '/shzu-webwelcome/images/official/landmarks/行政楼.jpg',
       alt: '石河子大学行政楼',
       title: '行政办公楼',
       description: '学校行政管理和教学科研的核心建筑',
@@ -120,7 +120,7 @@ export const officialImages = {
   landscapes: [
     {
       id: 'sunset-over-tianshan',
-      url: '/images/official/landscapes/晚霞映天山.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/晚霞映天山.jpg',
       alt: '石河子大学晚霞映天山',
       title: '晚霞映天山',
       description: '夕阳西下时，天山与晚霞交相辉映的壮美景象',
@@ -128,7 +128,7 @@ export const officialImages = {
     },
     {
       id: 'microwave-lake',
-      url: '/images/official/landscapes/微波湖.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/微波湖.jpg',
       alt: '石河子大学微波湖',
       title: '微波湖',
       description: '校园内的人工湖，四季景色各异，湖水清澈见底',
@@ -136,7 +136,7 @@ export const officialImages = {
     },
     {
       id: 'book-lake',
-      url: '/images/official/landscapes/书香湖.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/书香湖.jpg',
       alt: '石河子大学书香湖',
       title: '书香湖',
       description: '充满人文气息的校园湖泊，湖水与书香相映成趣',
@@ -144,7 +144,7 @@ export const officialImages = {
     },
     {
       id: 'autumn-pavilion',
-      url: '/images/official/landscapes/秋中红亭.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/秋中红亭.jpg',
       alt: '石河子大学秋中红亭',
       title: '秋中红亭',
       description: '秋季红叶满亭，是校园最具代表性的景观之一',
@@ -152,7 +152,7 @@ export const officialImages = {
     },
     {
       id: 'sunshine-campus',
-      url: '/images/official/landscapes/日光石大.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/日光石大.jpg',
       alt: '石河子大学日光石大',
       title: '日光石大',
       description: '阳光照耀下的美丽校园，充满生机与活力',
@@ -160,7 +160,7 @@ export const officialImages = {
     },
     {
       id: 'night-sky',
-      url: '/images/official/landscapes/夜空之境.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/夜空之境.jpg',
       alt: '石河子大学夜空之境',
       title: '夜空之境',
       description: '星空下的校园，静谧而神秘，展现别样的美丽',
@@ -168,7 +168,7 @@ export const officialImages = {
     },
     {
       id: 'spring-campus',
-      url: '/images/official/landscapes/春日石大.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/春日石大.jpg',
       alt: '石河子大学春日石大',
       title: '春日石大',
       description: '春暖花开的校园，万物复苏，生机勃勃',
@@ -176,7 +176,7 @@ export const officialImages = {
     },
     {
       id: 'campus-reflection',
-      url: '/images/official/landscapes/石大映像.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/石大映像.jpg',
       alt: '石河子大学石大映像',
       title: '石大映像',
       description: '校园建筑与自然的完美融合，体现人文关怀',
@@ -184,7 +184,7 @@ export const officialImages = {
     },
     {
       id: 'pavilion-lake',
-      url: '/images/official/landscapes/微波红亭.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/微波红亭.jpg',
       alt: '石河子大学微波红亭',
       title: '微波红亭',
       description: '微波湖畔的红亭，湖水亭影，相映成趣',
@@ -196,7 +196,7 @@ export const officialImages = {
   facilities: [
     {
       id: 'dormitory',
-      url: '/images/official/facilities/宿舍楼.jpg',
+      url: '/shzu-webwelcome/images/official/facilities/宿舍楼.jpg',
       alt: '石河子大学宿舍楼',
       title: '学生宿舍楼',
       description: '舒适安全的学生公寓，配备现代化生活设施',
@@ -204,7 +204,7 @@ export const officialImages = {
     },
     {
       id: 'sports-ground',
-      url: '/images/official/facilities/运动场.jpg',
+      url: '/shzu-webwelcome/images/official/facilities/运动场.jpg',
       alt: '石河子大学运动场',
       title: '运动场',
       description: '标准400米跑道运动场，提供优质的体育锻炼环境',
@@ -212,7 +212,7 @@ export const officialImages = {
     },
     {
       id: 'playground',
-      url: '/images/official/facilities/操场.jpg',
+      url: '/shzu-webwelcome/images/official/facilities/操场.jpg',
       alt: '石河子大学操场',
       title: '操场',
       description: '多功能运动场地，满足师生日常运动健身需求',
@@ -220,7 +220,7 @@ export const officialImages = {
     },
     {
       id: 'swimming-pool',
-      url: '/images/official/facilities/游泳馆.jpg',
+      url: '/shzu-webwelcome/images/official/facilities/游泳馆.jpg',
       alt: '石河子大学游泳馆',
       title: '游泳馆',
       description: '标准化室内游泳馆，提供优质游泳健身环境',
@@ -228,7 +228,7 @@ export const officialImages = {
     },
     {
       id: 'fangyuan-canteen',
-      url: '/images/official/facilities/方圆食堂.jpg',
+      url: '/shzu-webwelcome/images/official/facilities/方圆食堂.jpg',
       alt: '石河子大学方圆食堂',
       title: '方圆食堂',
       description: '校园主要食堂之一，提供丰富多样的餐饮服务',
@@ -236,7 +236,7 @@ export const officialImages = {
     },
     {
       id: 'jiangjunshan-canteen',
-      url: '/images/official/facilities/将军山食堂.jpg',
+      url: '/shzu-webwelcome/images/official/facilities/将军山食堂.jpg',
       alt: '石河子大学将军山食堂',
       title: '将军山食堂',
       description: '现代化餐饮设施，环境舒适，菜品丰富美味',
@@ -248,7 +248,7 @@ export const officialImages = {
   panoramas: [
     {
       id: 'aerial-view',
-      url: '/images/official/landscapes/shzu-aerial-view.jpg',
+      url: '/shzu-webwelcome/images/official/landscapes/shzu-aerial-view.jpg',
       alt: '石河子大学将军山鸟瞰图',
       title: '校园鸟瞰',
       description: '从将军山俯瞰石河子大学全景',

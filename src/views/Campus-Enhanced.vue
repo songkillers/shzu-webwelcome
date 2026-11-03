@@ -220,7 +220,7 @@ let imageModal = null
 
 // 获取全景图
 const panoramaImage = ref(panoramas.value[0] || {
-  url: '/images/official/landscapes/shzu-microwave-lake.jpg',
+  url: '/shzu-webwelcome/images/official/landscapes/shzu-microwave-lake.jpg',
   alt: '石河子大学微波湖',
   source: '石河子大学官方摄影'
 })

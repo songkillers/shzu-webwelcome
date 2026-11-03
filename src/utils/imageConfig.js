@@ -10,25 +10,25 @@ const officialImages = {
   carousel: [
     {
       id: 'gate',
-      url: '/images/official/shzu-gate.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-gate.jpg',
       alt: '石河子大学校门',
       source: '石河子大学官网'
     },
     {
       id: 'library',
-      url: '/images/official/shzu-library.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-library.jpg',
       alt: '石河子大学图书馆',
       source: '石河子大学官网'
     },
     {
       id: 'campus',
-      url: '/images/official/shzu-campus-spring.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-campus-spring.jpg',
       alt: '石河子大学春季校园',
       source: '石河子大学官网'
     },
     {
       id: 'activities',
-      url: '/images/official/shzu-activities.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-activities.jpg',
       alt: '石河子大学学生活动',
       source: '石河子大学官网'
     }
@@ -38,25 +38,25 @@ const officialImages = {
   landmarks: [
     {
       id: 'main-building',
-      url: '/images/official/shzu-main-building.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-main-building.jpg',
       alt: '石河子大学主教学楼',
       source: '石河子大学官网'
     },
     {
       id: 'stadium',
-      url: '/images/official/shzu-stadium.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-stadium.jpg',
       alt: '石河子大学体育馆',
       source: '石河子大学官网'
     },
     {
       id: 'museum',
-      url: '/images/official/shzu-museum.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-museum.jpg',
       alt: '石河子大学博物馆',
       source: '石河子大学官网'
     },
     {
       id: 'dormitory',
-      url: '/images/official/shzu-dormitory.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-dormitory.jpg',
       alt: '石河子大学学生宿舍',
       source: '石河子大学官网'
     }
@@ -66,19 +66,19 @@ const officialImages = {
   facilities: [
     {
       id: 'cafeteria',
-      url: '/images/official/shzu-cafeteria.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-cafeteria.jpg',
       alt: '石河子大学食堂',
       source: '石河子大学官网'
     },
     {
       id: 'lab',
-      url: '/images/official/shzu-laboratory.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-laboratory.jpg',
       alt: '石河子大学实验室',
       source: '石河子大学官网'
     },
     {
       id: 'classroom',
-      url: '/images/official/shzu-classroom.jpg',
+      url: '/shzu-webwelcome/images/official/shzu-classroom.jpg',
       alt: '石河子大学教室',
       source: '石河子大学官网'
     }

@@ -710,22 +710,22 @@ const router = useRouter()
 // 轮播图数据
 const heroSlides = ref([
   {
-    url: '/images/official/carousel/shzu-gate.jpg',
+    url: '/shzu-webwelcome/images/official/carousel/shzu-gate.jpg',
     title: '欢迎来到石河子大学',
     description: '开启求学之旅，探索知识的殿堂'
   },
   {
-    url: '/images/official/carousel/shzu-library.jpg',
+    url: '/shzu-webwelcome/images/official/carousel/shzu-library.jpg',
     title: '现代化图书馆',
     description: '丰富的藏书资源，为你的学术追求提供支持'
   },
   {
-    url: '/images/official/carousel/shzu-campus-sunset.jpg',
+    url: '/shzu-webwelcome/images/official/carousel/shzu-campus-sunset.jpg',
     title: '美丽的校园环境',
     description: '四季分明的景色，营造良好的学习氛围'
   },
   {
-    url: '/images/official/carousel/shzu-stadium.jpg',
+    url: '/shzu-webwelcome/images/official/carousel/shzu-stadium.jpg',
     title: '完善的体育设施',
     description: '促进德智体美劳全面发展'
   }
@@ -1066,7 +1066,7 @@ const featuredAlumni = ref([
     name: '侯国俊',
     role: '企业领导',
     graduation: '1990',
-    photo: '/images/alumni/侯国俊.webp',
+    photo: '/shzu-webwelcome/images/alumni/侯国俊.webp',
     quote: '石河子大学培养了我实业报国的理想，现致力于企业发展和社会贡献。',
     achievements: ['石河子天业股份公司董事长', '企业家', '社会贡献者']
   },
@@ -1074,7 +1074,7 @@ const featuredAlumni = ref([
     name: '陈小江',
     role: '医学专家',
     graduation: '1995',
-    photo: '/images/alumni/陈小江.webp',
+    photo: '/shzu-webwelcome/images/alumni/陈小江.webp',
     quote: '石河子大学为我奠定了医学基础，现致力于病毒医学研究。',
     achievements: ['美国南加州大学终身教授', '病毒医学专家', '国际知名学者']
   },
@@ -1082,7 +1082,7 @@ const featuredAlumni = ref([
     name: '刘江',
     role: '农业专家',
     graduation: '1985',
-    photo: '/images/alumni/刘江.webp',
+    photo: '/shzu-webwelcome/images/alumni/刘江.webp',
     quote: '母校培养了我服务农业的初心，为国家农业发展贡献力量。',
     achievements: ['原农业部部长', '农业发展专家', '政策制定者']
   },
@@ -1090,7 +1090,7 @@ const featuredAlumni = ref([
     name: '谢庆生',
     role: '政府官员',
     graduation: '1988',
-    photo: '/images/alumni/谢庆生.webp',
+    photo: '/shzu-webwelcome/images/alumni/谢庆生.webp',
     quote: '在石河子大学的学习经历为我服务社会奠定了坚实基础。',
     achievements: ['贵州省副省长', '公共管理专家', '社会发展推动者']
   }
