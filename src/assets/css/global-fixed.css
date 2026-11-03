@@ -638,8 +638,9 @@ section[id],
 .carousel-caption p {
   font-size: clamp(0.95rem, 1.6vw + 0.5rem, 1.35rem) !important;
 }
-h2 {
-  font-size: clamp(1.45rem, 2.6vw + 0.7rem, 2.4rem);
+h2,
+.section-title {
+  font-size: clamp(1.45rem, 2.6vw + 0.7rem, 2.4rem) !important;
 }
 h3 {
   font-size: clamp(1.15rem, 1.8vw + 0.6rem, 1.7rem);
